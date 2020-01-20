@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.14)
 project(PROG2007_Assignment1 C)
 
 set(CMAKE_C_STANDARD 11)

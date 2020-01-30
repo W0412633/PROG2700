@@ -5,19 +5,21 @@
 #include <stdio.h>
 
 int main() {
-    
+
     int num = 0;
     printf("Enter an integer: ");
     scanf("%i", &num);
-    
+
     int digit = 0;
     int sum = 0;
+    int strip_numbers[]
     while (num > 0) {
         digit = num %10;
+
         sum += digit;
         num /= 10;
     }
     printf("sum = %i\n", sum);
-    
+
     return 0;
 }
